@@ -1,16 +1,17 @@
+# A/B Test Experiment
 
-# A/B Test Experiment Project
+## Goal
+Evaluate whether a product change improves conversion.
 
-## Overview
-End-to-end A/B testing project demonstrating experimental design,
-hypothesis testing, segmentation, and interpretation.
+## What I Did
+- Designed a control vs treatment experiment
+- Defined the primary metric (conversion rate)
+- Ran a two-proportion z-test
+- Interpreted results overall and by segment
 
-## Experiment
-- Control vs Treatment
-- Metric: Conversion rate
-- Segments: New vs Returning users, Mobile vs Desktop
+## Outcome
+- Measured lift and statistical significance
+- Provided a clear ship / no-ship recommendation
 
-## How to Run
-1. Install requirements: `pip install -r requirements.txt`
-2. Generate data: `python python/00_generate_ab_data.py`
-3. Analyze experiment: `python python/01_analyze_ab_test.py`
+## Tools
+Python · pandas · scipy
